@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Nibbly" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dusty_grape</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/sandy_brown</item>
+        <item name="colorSurface">@color/ivory</item>
+        <item name="colorOnSurface">@color/midnight_violet</item>
+        <item name="colorOutline">@color/banana_cream</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

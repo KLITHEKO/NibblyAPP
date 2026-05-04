@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nibbly</string>
+    <!-- Questions -->
+    <string name="q1">Using the sticky edge of a Post-it note can help clean dust from between your computer keys.</string>
+    <string name="q2">Putting a dry towel in the dryer with your wet clothes will significantly speed up the drying time.</string>
+    <string name="q3">Shaving your hair causes it to grow back thicker and darker than before.</string>
+    <string name="q4">Pushing a straw from the bottom of a strawberry through the top is the easiest way to remove the stem.</string>
+    <string name="q5">Sprinkling a little bit of sugar on a burnt tongue can help soothe the pain.</string>
+    <string name="q6">Tying a bright ribbon to your suitcase ensures it will be unloaded first from the airplane.</string>
+    <string name="q7">A binder clip can be used on the edge of a desk to act as a cable organizer.</string>
+    <string name="q8">Taking a coffee nap involves drinking coffee immediately after a 20-minute nap </string>
+
+    <!-- Explanations -->
+    <string name="e1">The adhesive picks up lint without residue.</string>
+    <string name="e2">The towel absorbs initial moisture.</string>
+    <string name="e3">It only feels thicker because the ends are blunt.</string>
+    <string name="e4">The straw method removes the stem with minimal waste.</string>
+    <string name="e5">Sugar is believed to dampen pain sensors on the tongue.</string>
+    <string name="e6">It helps you identify your bag, but loading order is not affected.</string>
+    <string name="e7">The clip holds cables in place and prevents them from falling.</string>
+    <string name="e8">Caffeine works best when consumed before the nap, not after.</string>
+
+    <string name="score_label">Your Results</string>
+    <string name="score_placeholder">6 / 8</string>
+
+    <string name="result_title">Master Hacker!</string>
+    <string name="result_subtitle">You are basically a genius of efficiency.</string>
+
+    <string name="button_restart">Play Again</string>
+    <string name="button_review">Review Everything</string>
+
+    <string name="back_to_score">← Back to High score</string>
+    <string name="review_title">The Full Cheat Sheet</string>
+    <string name="hack_1">HACK 1</string>
+    <string name="fact">FACT</string>
+    <string name="hack_statement_goes_here">Hack statement goes here.</string>
+    <string name="explanation_goes_here">Explanation goes here.</string>
+    <string name="the_full_cheat_sheet">The Full Cheat Sheet</string>
+    <string name="back_to_high_score">← Back to High score</string>
+    <string name="play_again">Play Again</string>
+    <string name="master_hacker">Master Hacker!</string>
+    <string name="you_re_basically_a_genius_of_efficiency">You\'re basically a genius of efficiency.</string>
+    <string name="review_everything">Review Everything</string>
+    <string name="your_results">Your Results</string>
+    <string name="_6_8">6 / 8</string>
+    <string name="hack_1_of_8">Hack 1 of 8</string>
+    <string name="correct_this_is_a_myth">Correct! This is a myth.</string>
+    <string name="next">Next</string>
+    <string name="True_">True</string>
+    <string name="false_">False</string>
+    <string name="n">N</string>
+    <string name="nibbly">Nibbly</string>
+    <string name="verify_life_hacks_and_spot_the_myths">Verify life hacks and spot the myths</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="fact_">Fact</string>
+    <string name="myth">Myth</string>
+    <string name="hack_of">Hack %1$d of %2$d</string>
+    <string name="total_rookie">Total Rookie!</string>
+</resources>
