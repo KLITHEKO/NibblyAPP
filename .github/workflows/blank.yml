@@ -1,24 +1,28 @@
-# This is a simple automation that runs every time code is Pushed to GitHub.
-# It makes sure the app still "Builds" (compiles) without errors.
+# This is a simple automation.
+# It runs every time you Push code to GitHub to make sure it still works.
 
-name: Simple App Check
+name: Android App Check
 
-on: [push] # This means: "Run this every time I push code"
+on: [push] # Run every time you push code
 
 jobs:
-  check-my-app:
+  check-android:
     runs-on: ubuntu-latest
     
     steps:
-          
-      # Step 1: Check the Android App
-      - name: Setup Android Tools (Java)
+      # Step 1: Copy your code to the virtual computer
+      - name: Copy code from GitHub
+        uses: actions/checkout@v4
+      
+      # Step 2: Setup Java (required to build Android apps)
+      - name: Setup Java Tooling
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
           
-      - name: Build Android App
+      # Step 3: Run the build command
+      - name: Build the Android App
         run: |
           cd android
           chmod +x gradlew
