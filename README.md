@@ -1,7 +1,8 @@
-Nibbly — The Smart Hack App
+## Nibbly — The Smart Hack App
 
 A vibrant Fact vs Myth quiz application designed to debunk (or confirm) the internet's
 craziest life hacks. Built with a focus on bold design and smooth interactions, Nibbly provides a playful learning experience across both web and mobile platforms.
+<img width="310" height="265" alt="image" src="https://github.com/user-attachments/assets/7e93eff3-a601-4ea2-808c-651f81477805" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -13,6 +14,11 @@ craziest life hacks. Built with a focus on bold design and smooth interactions, 
 - Dynamic Progress — Visual progress tracking as you work through the Hack Levels.
 - Nostalgic Palette — A custom UI theme inspired by "Banana Cream" and "Midnight Violet."
 
+<img width="309" height="530" alt="image" src="https://github.com/user-attachments/assets/eca9e2fe-ca29-4fca-9e88-b44af18aaedc" />
+<img width="304" height="262" alt="image" src="https://github.com/user-attachments/assets/541e8627-b7fb-446a-bdc5-a0dcaf894acf" />
+
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Tech Stack
@@ -20,7 +26,7 @@ craziest life hacks. Built with a focus on bold design and smooth interactions, 
 Mobile (Android)
 
 | Layer | Technology | Reference |
-
+| :--- | :--- | :--- |
 | Language | Kotlin | JetBrains, 2024 |
 | Architecture | XML Layouts with ViewBinding | Google, 2024a |
 | UI Components | Google Material 3 — Cards, Chips, Progress Bars | Google, 2024b |
@@ -33,32 +39,33 @@ Mobile (Android)
 ## Project Structure (Android Focus)
 
 
-android/
-├── build.gradle.kts          # Project-level build settings
-├── settings.gradle.kts       # Project inclusion settings
-└── app/                      # The main application module
-    ├── build.gradle.kts      # App-level dependencies (ViewBinding, Kotlin, etc.)
-    └── src/main/
-        ├── AndroidManifest.xml   # App permissions and screen registrations
-        ├── java/com/example/nibbly/
-        │   ├── MainActivity.kt      # Home screen with the "Start" button
-        │   ├── QuizActivity.kt      # Core gameplay (Question logic & timers)
-        │   ├── ScoreActivity.kt     # Results screen & scrollable review list
-        │   ├── HackQuestion.kt      # Data Model (Definition of a "Hack")
-        │   ├── QuestionRepository.kt# The "Brain" (List of all facts & myths)
-        │   └── ReviewAdapter.kt     # Logic for showing the result cards
-        └── res/
-            ├── layout/              # UI Design Files (XML)
-            │   ├── activity_main.xml   # Home screen design
-            │   ├── activity_quiz.xml   # Quiz screen (Fact/Myth buttons)
-            │   ├── activity_score.xml  # Scoreboard design
-            │   └── item_review.xml     # Template for a single review card
-            ├── values/              # Design Tokens
-            │   ├── colors.xml          # Banana Cream, Midnight Violet, etc.
-            │   ├── strings.xml         # App name and hardcoded text
-            │   └── themes.xml          # Global look and feel (Material 3)
-            └── drawable/            # App icons and background shapes
+android?
+build.gradle.kts          # Project-level build settings
+settings.gradle.kts       # Project inclusion settings
+app/                      # The main application module
+build.gradle.kts      # App-level dependencies (ViewBinding, Kotlin, etc.)
+src/main/
+AndroidManifest.xml   # App permissions and screen registrations
+java/com/example/nibbly/
+MainActivity.kt      # Home screen with the "Start" button
+QuizActivity.kt      # Core gameplay (Question logic & timers)
+ScoreActivity.kt     # Results screen & scrollable review list
+HackQuestion.kt      # Data Model (Definition of a "Hack")
+QuestionRepository.kt# The "Brain" (List of all facts & myths)
+ReviewAdapter.kt     # Logic for showing the result cards
+**res/**
+**layout/**              # UI Design Files (XML)
+activity_main.xml   # Home screen design
+activity_quiz.xml   # Quiz screen (Fact/Myth buttons)
+activity_score.xml  # Scoreboard design
+item_review.xml     # Template for a single review card
+**values/**              # Design Tokens
+colors.xml          # Banana Cream, Midnight Violet, etc.
+strings.xml         # App name and hardcoded text
+themes.xml          # Global look and feel (Material 3)
+drawable/            # App icons and background shapes
 
+<img width="368" height="627" alt="image" src="https://github.com/user-attachments/assets/53262461-a0bc-45f7-ba2e-5b70c2b021c8" />
 
 
 
@@ -74,8 +81,11 @@ Every time you push code, this workflow will:
 1. Set up a virtual Android environment.
 2. Attempt to compile your code.
 3. Notify you of any syntax errors or build failures — keeping the app stable as you add more hacks.
+   
+<img width="269" height="74" alt="image" src="https://github.com/user-attachments/assets/02b877ea-3fd8-4ee4-9ca6-200d13cd4c6f" />
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Colour System
 
