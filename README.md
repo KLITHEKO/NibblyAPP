@@ -39,31 +39,26 @@ Mobile (Android)
 ## Project Structure (Android Focus)
 
 
-android?
-build.gradle.kts          # Project-level build settings
-settings.gradle.kts       # Project inclusion settings
-app/                      # The main application module
-build.gradle.kts      # App-level dependencies (ViewBinding, Kotlin, etc.)
-src/main/
-AndroidManifest.xml   # App permissions and screen registrations
-java/com/example/nibbly/
-MainActivity.kt      # Home screen with the "Start" button
-QuizActivity.kt      # Core gameplay (Question logic & timers)
-ScoreActivity.kt     # Results screen & scrollable review list
-HackQuestion.kt      # Data Model (Definition of a "Hack")
-QuestionRepository.kt# The "Brain" (List of all facts & myths)
-ReviewAdapter.kt     # Logic for showing the result cards
-**res/**
-**layout/**              # UI Design Files (XML)
-activity_main.xml   # Home screen design
-activity_quiz.xml   # Quiz screen (Fact/Myth buttons)
-activity_score.xml  # Scoreboard design
-item_review.xml     # Template for a single review card
-**values/**              # Design Tokens
-colors.xml          # Banana Cream, Midnight Violet, etc.
-strings.xml         # App name and hardcoded text
-themes.xml          # Global look and feel (Material 3)
-drawable/            # App icons and background shapes
+
+android/
+├── build.gradle.kts              # Project-level build settings
+├── settings.gradle.kts           # Project inclusion settings
+└── app/
+    ├── build.gradle.kts          # App-level dependencies
+    └── src/main/
+        ├── AndroidManifest.xml   # App permissions & activity registrations
+        ├── java/com/example/nibbly/
+        │   ├── MainActivity.kt
+        │   ├── QuizActivity.kt
+        │   ├── ScoreActivity.kt
+        │   ├── HackQuestion.kt
+        │   ├── QuestionRepository.kt
+        │   └── ReviewAdapter.kt
+        └── res/
+            ├── layout/
+            ├── values/
+            └── drawable/
+
 
 <img width="368" height="627" alt="image" src="https://github.com/user-attachments/assets/53262461-a0bc-45f7-ba2e-5b70c2b021c8" />
 
