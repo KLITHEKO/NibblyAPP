@@ -40,24 +40,31 @@ Mobile (Android)
 
 
 
-android/
-├── build.gradle.kts              # Project-level build settings
-├── settings.gradle.kts           # Project inclusion settings
-└── app/
-    ├── build.gradle.kts          # App-level dependencies
-    └── src/main/
-        ├── AndroidManifest.xml   # App permissions & activity registrations
-        ├── java/com/example/nibbly/
-        │   ├── MainActivity.kt
-        │   ├── QuizActivity.kt
-        │   ├── ScoreActivity.kt
-        │   ├── HackQuestion.kt
-        │   ├── QuestionRepository.kt
-        │   └── ReviewAdapter.kt
-        └── res/
-            ├── layout/
-            ├── values/
-            └── drawable/
+1. `android/`
+2. `build.gradle.kts` — Project-level build settings
+3. `settings.gradle.kts` — Project inclusion settings
+4. `app/` — The main application module
+5. `app/build.gradle.kts` — App-level dependencies (ViewBinding, Kotlin, etc.)
+6. `app/src/main/`
+7. `app/src/main/AndroidManifest.xml` — App permissions and screen registrations
+8. `app/src/main/java/com/example/nibbly/`
+9. `app/src/main/java/com/example/nibbly/MainActivity.kt` — Home screen with the "Start" button
+10. `app/src/main/java/com/example/nibbly/QuizActivity.kt` — Core gameplay (question logic & timers)
+11. `app/src/main/java/com/example/nibbly/ScoreActivity.kt` — Results screen & scrollable review list
+12. `app/src/main/java/com/example/nibbly/HackQuestion.kt` — Data model (definition of a "Hack")
+13. `app/src/main/java/com/example/nibbly/QuestionRepository.kt` — The "Brain" (list of all facts & myths)
+14. `app/src/main/java/com/example/nibbly/ReviewAdapter.kt` — Logic for showing the result cards
+15. `app/src/main/res/`
+16. `app/src/main/res/layout/` — UI design files (XML)
+17. `app/src/main/res/layout/activity_main.xml` — Home screen design
+18. `app/src/main/res/layout/activity_quiz.xml` — Quiz screen (Fact/Myth buttons)
+19. `app/src/main/res/layout/activity_score.xml` — Scoreboard design
+20. `app/src/main/res/layout/item_review.xml` — Template for a single review card
+21. `app/src/main/res/values/` — Design tokens
+22. `app/src/main/res/values/colors.xml` — Banana Cream, Midnight Violet, etc.
+23. `app/src/main/res/values/strings.xml` — App name and hardcoded text
+24. `app/src/main/res/values/themes.xml` — Global look and feel (Material 3)
+25. `app/src/main/res/drawable/` — App icons and background shapes
 
 
 <img width="368" height="627" alt="image" src="https://github.com/user-attachments/assets/53262461-a0bc-45f7-ba2e-5b70c2b021c8" />
