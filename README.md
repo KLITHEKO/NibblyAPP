@@ -1,7 +1,7 @@
 ## Nibbly — The Smart Hack App
 
 A vibrant Fact vs Myth quiz application designed to debunk (or confirm) the internet's
-craziest life hacks. Built with a focus on bold design and smooth interactions, Nibbly provides a playful learning experience across both web and mobile platforms.
+craziest life hacks. Built with a focus on bold design and smooth interactions, Nibbly, provides a playful learning experience for the android mobile platform.
 <img width="310" height="265" alt="image" src="https://github.com/user-attachments/assets/7e93eff3-a601-4ea2-808c-651f81477805" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
